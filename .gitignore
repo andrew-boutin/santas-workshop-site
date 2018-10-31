@@ -1,0 +1,5 @@
+*.swp
+*.html~
+.DS_Store
+
+secrets.json

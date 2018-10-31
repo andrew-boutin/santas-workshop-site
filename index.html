@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Santa's Workshop</title>
+    <meta name="description" content="Santa's Workshop in Unity, NH">
+    <meta name="author" content="Andrew Boutin">
+    <meta name="keywords" content="santas,workshop,unity,nh">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- TODO: Get a logo for this <link rel="image_src" href="imgs/logorec.png"> -->
+    <!-- TODO: Get a favicon for this <link rel="icon" href="imgs/favicon.ico"> -->
+     <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav id="navwrapper" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" style="padding-top:2px;padding-bottom:2px;"><img src="imgs/logorectangle.png" style="height:100%;"></a> <!-- TODO: Need a logo for this -->
+                <a class="navbar-brand" href="index.html">Santa's Workshop</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jump To <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Jump To A Section On This Page</li>
+                            <li><a href="#products"><img src="">Products</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="mainContent bigContent">
+        <div id="store-images" class="carousel slide" data-ride="carousel" style="position:absolute;width:100%;">
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="mainContent bigContent"></div>
+                </div>
+                <div class="item">
+                    <div class="mainContent bigContent"></div>
+                </div>
+                <div class="item">
+                    <div class="mainContent bigContent"></div>
+                </div>
+            </div>
+        </div>
+        <div class="mainContent bigContent" style="position:absolute;">
+            <div class="mainContentWrapper">
+                <div class="textOverlay">
+                    <h1>Santa's Workshop</h1>
+                    <i>Quality wood products and so much more</i>
+                </div>
+            </div>
+        </div>
+        <div class="mainContent bigContent" style="position:absolute;">
+            <div class="mainContentWrapper" style="vertical-align: bottom;color:black;padding-bottom:10px;font-size:18px;font-weight:bolder;">
+                Scroll down to see more!
+            </div>
+        </div>
+        <a class="left carousel-control" href="#store-images" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#store-images" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div id="products" class="bigContent splitContentWrapper">
+        <div class="splitContent textSplitContentWrapper">
+            <h2 class="title">Products</h2>
+            We offer toys, decorations, gifts, trinkets, furniture, and custom orders.
+        </div><div class="splitContent products imgSplitContent"></div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <h3>Santa's Workshop</h3>
+                <div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <ul>
+                            <i>Quality wood products and so much more</i>
+                        </ul>
+                        <ul class="social">
+                            <li><a href="https://www.facebook.com/santasworkshopnh"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.google.com/maps/place/Santa's+Workshop/@43.3111871,-72.2889292,18z/data=!3m1!4b1!4m5!3m4!1s0x89e193cd824b0e01:0xcd3bace4b34dc0c9!8m2!3d43.3597437!4d-72.3100897"><i class="fa fa-map-marker"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <ul>
+                            <li>492 2nd NH Turnpike</li>
+                            <li>Claremont, NH 03743</li>
+                            <li>(603) 542-8968</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
