@@ -8,8 +8,8 @@
     <meta name="keywords" content="santas,workshop,unity,nh">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <!-- TODO: Get a logo for this <link rel="image_src" href="imgs/logorec.png"> -->
-    <!-- TODO: Get a favicon for this <link rel="icon" href="imgs/favicon.ico"> -->
+    <link rel="image_src" href="imgs/hat.png">
+    <link rel="icon" href="imgs/favicon.ico">
      <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -27,7 +27,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html" style="padding-top:2px;padding-bottom:2px;"><img src="imgs/logorectangle.png" style="height:100%;"></a> <!-- TODO: Need a logo for this -->
+                <a class="navbar-brand" href="index.html" style="padding-top:2px;padding-bottom:2px;"><img src="imgs/hat.png" style="height:100%;"></a>
                 <a class="navbar-brand" href="index.html">Santa's Workshop</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
@@ -40,8 +40,10 @@
                         <ul class="dropdown-menu">
                             <li class="dropdown-header">Jump To A Section On This Page</li>
                             <li><a href="#toys"><img src="">Toys</a></li>
-                            <li><a href="#furniture"><img src="">Furniture</a></li>
-                            <li><a href="#treesandwreathes"><img src="">Trees and Wreathes</a></li>
+                            <li><a href="#home_decor"><img src="">Home Decor</a></li>
+                            <li><a href="#signs"><img src="">Signs</a></li>
+                            <li><a href="#outdoor_furniture"><img src="">Outdoor Furniture</a></li>
+                            <li><a href="#indoor_furniture"><img src="">Indoor Furniture</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -52,13 +54,13 @@
         <div id="store-images" class="carousel slide" data-ride="carousel" style="position:absolute;width:100%;">
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <div class="mainContent bigContent"></div>
+                    <div class="front mainContent bigContent"></div>
                 </div>
                 <div class="item">
-                    <div class="mainContent bigContent"></div>
+                    <div class="side mainContent bigContent"></div>
                 </div>
                 <div class="item">
-                    <div class="mainContent bigContent"></div>
+                    <div class="inside mainContent bigContent"></div>
                 </div>
             </div>
         </div>
@@ -91,20 +93,41 @@
         </div>
         <div class="splitContent toys imgSplitContent"></div>
     </div>
-    <div id="furniture" class="bigContent splitContentWrapper">
-        <div class="splitContent furniture imgSplitContent"></div>
+    <div id="home_decor" class="bigContent splitContentWrapper">
+        <div class="splitContent home_decor imgSplitContent"></div>
         <div class="splitContent textSplitContentWrapper">
-            <h2 class="title">Furniture</h2>
-            We make excellent quality furniture right in our own workshop! Put in a custom order or check out our pre-built items such as picnic tables, chairs, benches and more!
+            <h2 class="title">Home Decor</h2>
+            We have all sorts of ornaments, decorations, and gift ideas for both inside and outside the house! Things like birdfeeders, wishing wells, animal outlines, and so much more.
         </div>
     </div>
-    <div id="treesandwreathes" class="bigContent splitContentWrapper">
+    <div id="signs" class="bigContent splitContentWrapper">
+        <div class="splitContent textSplitContentWrapper">
+            <h2 class="title">Signs</h2>
+            They don't call Ken Hall the Sign Dr. for nothing! We make signs of all kinds: business, personal, wood burned, painted, large, small, you name it.
+        </div>
+        <div class="splitContent signs imgSplitContent"></div>
+    </div>
+    <div id="outdoor_furniture" class="bigContent splitContentWrapper">
+        <div class="splitContent outdoor_furniture imgSplitContent"></div>
+        <div class="splitContent textSplitContentWrapper">
+            <h2 class="title">Outdoor Furniture</h2>
+            We make gazebos, picnic tables, swinging benches, and adirondack chairs among other things. Let us know what you need and we'll make sure you get it. We also do custom orders.
+        </div>
+    </div>
+    <div id="indoor_furniture" class="bigContent splitContentWrapper">
+        <div class="splitContent textSplitContentWrapper">
+            <h2 class="title">Indoor Furniture</h2>
+            We make excellent quality household and childrens' furniture such as benches, tables, chairs, rocking chairs, coffee tables, and chests. We also do custom orders.
+        </div>
+        <div class="splitContent indoor_furniture imgSplitContent"></div>
+    </div>
+    <!-- TODO: Need image of trees & wreathes. <div id="treesandwreathes" class="bigContent splitContentWrapper">
+        <div class="splitContent treesandwreathes imgSplitContent"></div>
         <div class="splitContent textSplitContentWrapper">
             <h2 class="title">Trees and Wreathes</h2>
             We sell wreathes and trees at the store too! They're usually available starting around Thanksgiving and up until Christmas. Order ahead of time or just stop in!
         </div>
-        <div class="splitContent treesandwreathes imgSplitContent"></div>
-    </div>
+    </div> -->
     <footer>
         <div class="footer">
             <div class="container">

@@ -92,6 +92,30 @@ div {
 .textSplitContentWrapper {
     width: 40%;
 }
+.front {
+    background-image: url("../imgs/front.png");
+}
+.side {
+    background-image: url("../imgs/side.png");
+}
+.inside {
+    background-image: url("../imgs/inside.png");
+}
+.home_decor {
+    background-image: url("../imgs/home_decor.png");
+}
+.indoor_furniture {
+    background-image: url("../imgs/indoor_furniture.png");
+}
+.outdoor_furniture {
+    background-image: url("../imgs/outdoor_furniture.png");
+}
+.signs {
+    background-image: url("../imgs/signs.png");
+}
+.toys {
+    background-image: url("../imgs/toys.png");
+}
 .logoWrapper {
     float: left;
     margin: 5px;
